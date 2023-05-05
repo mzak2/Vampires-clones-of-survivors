@@ -1,0 +1,327 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ef2578481c6a44da82aaff06e6ffa4, type: 3}
+  m_Name: Stage1 Data
+  m_EditorClassIdentifier: 
+  stageEvents:
+  - eventType: 2
+    time: 2
+    message: Fortune Favor you Survivor!
+    enemyToSpawn: {fileID: 0}
+    objectToSpawn: {fileID: 8195942498218750102, guid: 8a418604bcef7734cb079eaa4938ba12, type: 3}
+    count: 20
+  - eventType: 0
+    time: 5
+    message: 'Spawn '
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 5
+  - eventType: 0
+    time: 10
+    message: Spawn Bat 2
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 5
+  - eventType: 0
+    time: 17
+    message: Spawn Bat 3
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 10
+  - eventType: 0
+    time: 30
+    message: Spawn Bat 3
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 20
+  - eventType: 0
+    time: 35
+    message: Spawn Skeleton
+    enemyToSpawn: {fileID: 11400000, guid: 72fac6f12378560479f3ea7827f62067, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 10
+  - eventType: 0
+    time: 40
+    message: Spawn Bats
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 20
+  - eventType: 0
+    time: 45
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 72fac6f12378560479f3ea7827f62067, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 5
+  - eventType: 0
+    time: 50
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 20
+  - eventType: 0
+    time: 55
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 72fac6f12378560479f3ea7827f62067, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 5
+  - eventType: 0
+    time: 60
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 20
+  - eventType: 0
+    time: 65
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 72fac6f12378560479f3ea7827f62067, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 5
+  - eventType: 1
+    time: 70
+    message: Boss
+    enemyToSpawn: {fileID: 11400000, guid: 92edb40979256704dae611f2140ddf35, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 1
+  - eventType: 0
+    time: 85
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 10
+  - eventType: 0
+    time: 95
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 72fac6f12378560479f3ea7827f62067, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 5
+  - eventType: 0
+    time: 100
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 20
+  - eventType: 0
+    time: 105
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 72fac6f12378560479f3ea7827f62067, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 10
+  - eventType: 0
+    time: 110
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 20
+  - eventType: 0
+    time: 115
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 72fac6f12378560479f3ea7827f62067, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 10
+  - eventType: 0
+    time: 120
+    message: Spawn Eyeball
+    enemyToSpawn: {fileID: 11400000, guid: 137be9cb959f83548af0c188c49d56c8, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 3
+  - eventType: 0
+    time: 125
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 20
+  - eventType: 0
+    time: 130
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 20
+  - eventType: 0
+    time: 135
+    message: Win
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 20
+  - eventType: 0
+    time: 135
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 72fac6f12378560479f3ea7827f62067, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 20
+  - eventType: 0
+    time: 140
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 137be9cb959f83548af0c188c49d56c8, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 5
+  - eventType: 0
+    time: 145
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 72fac6f12378560479f3ea7827f62067, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 20
+  - eventType: 1
+    time: 150
+    message: Spawn NecroMancer
+    enemyToSpawn: {fileID: 11400000, guid: 261bd1df89c4ad045b224cc5ce295a87, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 1
+  - eventType: 0
+    time: 165
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 20
+  - eventType: 0
+    time: 170
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 20
+  - eventType: 0
+    time: 175
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 72fac6f12378560479f3ea7827f62067, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 10
+  - eventType: 0
+    time: 180
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 137be9cb959f83548af0c188c49d56c8, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 10
+  - eventType: 0
+    time: 185
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 40
+  - eventType: 0
+    time: 190
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 40
+  - eventType: 0
+    time: 195
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 72fac6f12378560479f3ea7827f62067, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 20
+  - eventType: 1
+    time: 200
+    message: Spawn Mushroom 2
+    enemyToSpawn: {fileID: 11400000, guid: 92edb40979256704dae611f2140ddf35, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 5
+  - eventType: 0
+    time: 205
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 20
+  - eventType: 0
+    time: 210
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 40
+  - eventType: 0
+    time: 215
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 60
+  - eventType: 0
+    time: 220
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 72fac6f12378560479f3ea7827f62067, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 20
+  - eventType: 0
+    time: 225
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 72fac6f12378560479f3ea7827f62067, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 40
+  - eventType: 0
+    time: 230
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 72fac6f12378560479f3ea7827f62067, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 60
+  - eventType: 0
+    time: 235
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 137be9cb959f83548af0c188c49d56c8, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 10
+  - eventType: 0
+    time: 240
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 137be9cb959f83548af0c188c49d56c8, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 20
+  - eventType: 0
+    time: 245
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 137be9cb959f83548af0c188c49d56c8, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 30
+  - eventType: 0
+    time: 250
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 72fac6f12378560479f3ea7827f62067, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 20
+  - eventType: 0
+    time: 255
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 137be9cb959f83548af0c188c49d56c8, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 40
+  - eventType: 0
+    time: 260
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 91e7f2bdbac90c248882e9f28582d150, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 100
+  - eventType: 0
+    time: 265
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 72fac6f12378560479f3ea7827f62067, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 100
+  - eventType: 1
+    time: 270
+    message: Spawn Boss
+    enemyToSpawn: {fileID: 11400000, guid: 92edb40979256704dae611f2140ddf35, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 25
+  - eventType: 0
+    time: 275
+    message: Spawn
+    enemyToSpawn: {fileID: 11400000, guid: 72fac6f12378560479f3ea7827f62067, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 100
+  - eventType: 1
+    time: 280
+    message: Spawn Boss
+    enemyToSpawn: {fileID: 11400000, guid: 261bd1df89c4ad045b224cc5ce295a87, type: 2}
+    objectToSpawn: {fileID: 0}
+    count: 25
+  - eventType: 3
+    time: 300
+    message: Win
+    enemyToSpawn: {fileID: 0}
+    objectToSpawn: {fileID: 0}
+    count: 0

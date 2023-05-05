@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ccb12c1bf2a61c49bb7d54d146068bf, type: 3}
+  m_Name: Whip
+  m_EditorClassIdentifier: 
+  Name: Weapon1
+  stats:
+    damage: 200
+    timeToAttack: 1
+    numberOfAttacks: 1
+  weaponBasePrefab: {fileID: 2405191758857766391, guid: d11966307ca148649ba1789313dc6d0e, type: 3}
+  upgrades:
+  - {fileID: 11400000, guid: f192681c70cc9f44fab6dd7296c05209, type: 2}
+  - {fileID: 11400000, guid: 6f4220fca36096a4097b3b892873df89, type: 2}
+  - {fileID: 11400000, guid: be5997ffdfa14cf49800f2c6d2669e86, type: 2}
+  - {fileID: 11400000, guid: d2a0c4b69efe2a94382f73b2ac4d0c3c, type: 2}
+  - {fileID: 11400000, guid: b30710721b09ddd4caaf0ce9d72a0dc5, type: 2}
+  - {fileID: 11400000, guid: 051c5a78062f882408676f0e7c0949e3, type: 2}
+  - {fileID: 11400000, guid: 2e3e590e338b43b41b952fa11da8b6cc, type: 2}
+  - {fileID: 11400000, guid: f6f7572a4f293b04bbaf233253370f07, type: 2}
+  - {fileID: 11400000, guid: 5ca04c6b1b610714985784ad1e9d09d8, type: 2}

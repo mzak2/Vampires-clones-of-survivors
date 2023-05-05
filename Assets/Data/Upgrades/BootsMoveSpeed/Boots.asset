@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f39390fc0b831a84486bb7aabe8b4085, type: 3}
+  m_Name: Boots
+  m_EditorClassIdentifier: 
+  Name: Boots
+  stats:
+    armor: 0
+    hpRegenerationRate: 0
+    speed: 2
+  upgrades:
+  - {fileID: 11400000, guid: 38ddbce9f54ff6d47947376919316798, type: 2}
+  - {fileID: 11400000, guid: 189fdc60ca842b74398ee7605bcb9f1c, type: 2}
+  - {fileID: 11400000, guid: 37ca2e6854634864ea6cc4e038ccc259, type: 2}

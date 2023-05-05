@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7818b7aa3663d514982854f81f4b3d2f, type: 3}
+  m_Name: ThrowingKnife(Speed+) 1
+  m_EditorClassIdentifier: 
+  upgradeType: 0
+  Name: Knife Speed+
+  icon: {fileID: 21300000, guid: 2fbd59402b1dd624ba14aa8779ee79d7, type: 3}
+  weaponData: {fileID: 11400000, guid: 10a38deb15cd0a04c81ac116615216dd, type: 2}
+  weaponUpgradeStats:
+    damage: 0
+    timeToAttack: -0.25
+    numberOfAttacks: 0
+  item: {fileID: 11400000, guid: 2eeb4488a73e0844aba25166b70cd5be, type: 2}
+  itemStats:
+    armor: 0
+    hpRegenerationRate: 0
