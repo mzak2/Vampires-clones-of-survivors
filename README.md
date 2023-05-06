@@ -9,7 +9,7 @@ https://store.steampowered.com/app/1794680/Vampire_Survivors/
 shoutout to Gregdev for his many great videos and lessons!
 
 ---------Instructions:
-<br/>1. downloading and the zip file "vampires-clones-of-survivors"
+<br/>1. download the zip file "vampires-clones-of-survivors"
 <br/>2. unzip the zip file "vampires-clones-of-survivors"
 <br/>3. Run the application file
 
